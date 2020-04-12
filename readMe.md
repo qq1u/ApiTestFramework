@@ -1,4 +1,9 @@
 # 使用前须知
+
+    此框架用到两个第三方库
+        1、requuests 库
+        2、parameterized 库
+
 ## <1>、api层
     放置接口的请求对象层
 
