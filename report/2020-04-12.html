@@ -49,7 +49,6 @@
         font-size: 8pt;
         /* width: 500px;*/
     }
-    }
     /* -- report ------------------------------------------------------------------------ */
     #show_detail_line {
         margin-top: 3ex;
@@ -178,8 +177,8 @@
         
     <div class='page-header' style="font-size: 15px;">
         <h1>接口自动化测试报告</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2020-04-12 20:50:29</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:06.063654</p>
+    <p class='attribute'><strong>开始时间:</strong> 2020-04-12 21:55:55</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:06.143522</p>
 <p class='attribute'><strong>状态:</strong> 通过 13</p>
 
     </div>
@@ -233,11 +232,11 @@
 案例: 修改nickname成功
 &lt;request&gt;
 	url: https://www.jayne.club/api/v1/user
-	data: {"userId": 3, "token": "9d5976201672d30d93ae9a00d41d5de7", "data": {"nickname": "\u79cb\u98ce\u7238\u7238", "phone": "13528080556", "sex": 1, "education": "\u6e05\u534e\u5927\u5b66\u8ba1\u7b97\u673a\u535a\u58eb", "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"}}
+	data: {"userId": 3, "token": "88a3502f00cbe35348f07e6af418e69d", "data": {"nickname": "秋风爸爸", "phone": "13528080556", "sex": 1, "education": "清华大学计算机博士", "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"}}
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '275', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 200, 'msg': '修改成功', 'data': {'nickname': '秋风爸爸', 'phone': '13528080556', 'sex': 1, 'education': '清华大学计算机博士', 'avatar': 'https://www.jayne.club/static/avatar/userId3.jpg'}}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '215', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:54 GMT', 'Content-Type': 'application/json', 'Content-Length': '215', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -259,21 +258,21 @@
 案例: 修改nickname失败
 &lt;request&gt;
 	url: https://www.jayne.club/api/v1/user
-	data: {"data": {"nickname": "\u79cb\u98ce\u7238\u7238", "phone": "13528080556", "sex": 1, "education": "\u6e05\u534e\u5927\u5b66\u8ba1\u7b97\u673a\u535a\u58eb", "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"}}
+	data: {"data": {"nickname": "秋风爸爸", "phone": "13528080556", "sex": 1, "education": "清华大学计算机博士", "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"}}
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '217', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 405, 'msg': '请求参数错误', 'data': {}}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '55', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:54 GMT', 'Content-Type': 'application/json', 'Content-Length': '55', 'Connection': 'keep-alive'} 
 
 
 案例: 修改phone失败
 &lt;request&gt;
 	url: https://www.jayne.club/api/v1/user
-	data: {"data": {"nickname": "\u79cb\u98ce\u7238\u7238", "phone": "13528080808", "sex": 1, "education": "\u6e05\u534e\u5927\u5b66\u8ba1\u7b97\u673a\u535a\u58eb", "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"}}
+	data: {"data": {"nickname": "秋风爸爸", "phone": "13528080808", "sex": 1, "education": "清华大学计算机博士", "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"}}
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '217', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 405, 'msg': '请求参数错误', 'data': {}}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '55', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:55 GMT', 'Content-Type': 'application/json', 'Content-Length': '55', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -307,8 +306,8 @@
 	data: {"username": "qiujiajin", "password": "123456"}
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '47', 'Content-Type': 'application/json'}
 &lt;response&gt;
-	data:{'code': 200, 'msg': '登录成功', 'userId': 3, 'token': '874e3a0a7fc16a55dc303c80ac93afe7'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '95', 'Connection': 'keep-alive'} 
+	data:{'code': 200, 'msg': '登录成功', 'userId': 3, 'token': '4f03040c1796ec7f30c9b861d337b15f'}
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:55 GMT', 'Content-Type': 'application/json', 'Content-Length': '95', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -334,7 +333,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '32', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 404, 'msg': '用户名不存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:55 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 案例: 用户名为空
@@ -344,7 +343,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '38', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 404, 'msg': '用户名不存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:56 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 案例: 密码为空
@@ -354,7 +353,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '41', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '用户名或密码错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:56 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -380,7 +379,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 405, 'msg': '请求参数错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:56 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 案例: 未传密码
@@ -390,7 +389,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 405, 'msg': '请求参数错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:56 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -416,7 +415,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '43', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 404, 'msg': '用户名不存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:56 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 案例: 用户名输入138001380000，登录失败（用户名不符合6-11位规格，此处为12位）
@@ -426,7 +425,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '50', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 404, 'msg': '用户名不存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:57 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 案例: 未注册的用户名，登录失败
@@ -436,7 +435,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 404, 'msg': '用户名不存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:57 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -462,7 +461,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '46', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '用户名或密码错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:31 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:57 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 案例: 密码输入12345678901，登录失败（密码不符合6-11位规格，此处为12位）
@@ -472,7 +471,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '52', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '用户名或密码错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:57 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 案例: 不正确的密码，登录失败
@@ -482,7 +481,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '48', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '用户名或密码错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:58 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -517,7 +516,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '44', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '该用户名已存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '46', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:58 GMT', 'Content-Type': 'application/json', 'Content-Length': '46', 'Connection': 'keep-alive'} 
 
 
 案例: 11位用户名
@@ -527,7 +526,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '49', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '该用户名已存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '46', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:58 GMT', 'Content-Type': 'application/json', 'Content-Length': '46', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -553,7 +552,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '32', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数规格不符'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:32 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:58 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 案例: 用户名为空
@@ -563,7 +562,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '38', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数规格不符'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:58 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 案例: 密码为空
@@ -573,7 +572,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '41', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数规格不符'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:59 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -599,7 +598,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:59 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 案例: 未传密码
@@ -609,7 +608,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数错误'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:59 GMT', 'Content-Type': 'application/json', 'Content-Length': '43', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -635,7 +634,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '43', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数规格不符'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:59 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 案例: 用户名输入138001380000，注册失败（用户名不符合6-11位规格，此处为12位）
@@ -645,7 +644,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '50', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数规格不符'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:55:59 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -671,7 +670,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '44', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数规格不符'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:56:00 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 案例: 密码输入123456789012，注册失败（密码不符合6-11位规格，此处为12位）
@@ -681,7 +680,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '51', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '请求参数规格不符'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:56:00 GMT', 'Content-Type': 'application/json', 'Content-Length': '49', 'Connection': 'keep-alive'} 
 
 
 </pre>
@@ -707,7 +706,7 @@
 	headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
 &lt;response&gt;
 	data:{'code': 400, 'msg': '该用户名已存在'}
-	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 12:50:34 GMT', 'Content-Type': 'application/json', 'Content-Length': '46', 'Connection': 'keep-alive'} 
+	headers: {'Server': 'nginx/1.16.1', 'Date': 'Sun, 12 Apr 2020 13:56:00 GMT', 'Content-Type': 'application/json', 'Content-Length': '46', 'Connection': 'keep-alive'} 
 
 
 </pre>

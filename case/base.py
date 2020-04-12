@@ -37,7 +37,7 @@ class Base(unittest.TestCase):
         r = api_interfaces[interface](request_data)
 
         print('<request>\n' + '\turl:', r.url)
-        print('\tdata:', r.request.body.decode())
+        print('\tdata:', r.request.body.decode('unicode_escape'))
         print('\theaders:', r.request.headers)
 
         print('<response>\n' + '\tdata:' + str(r.json()))

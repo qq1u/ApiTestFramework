@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2e6215c3-99df-43e8-944c-55d5455bea4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/temp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2020-04-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2020-04-12.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020-04-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2020-04-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/HTMLTestRunner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +148,8 @@
       <workItem from="1586485774490" duration="2928000" />
       <workItem from="1586488733277" duration="6321000" />
       <workItem from="1586685204802" duration="4930000" />
-      <workItem from="1586696998998" duration="117000" />
+      <workItem from="1586696998998" duration="447000" />
+      <workItem from="1586699088032" duration="486000" />
     </task>
     <servers />
   </component>
@@ -156,22 +160,22 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="300" key="GridCell.Tab.0.bottom" timestamp="1586696980496">
+    <state width="2005" height="361" key="GridCell.Tab.0.bottom" timestamp="1586699754904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
-    <state width="2005" height="300" key="GridCell.Tab.0.center" timestamp="1586696980496">
+    <state width="2005" height="361" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586699754904" />
+    <state width="2005" height="361" key="GridCell.Tab.0.center" timestamp="1586699754904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
-    <state width="2005" height="300" key="GridCell.Tab.0.left" timestamp="1586696980496">
+    <state width="2005" height="361" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586699754904" />
+    <state width="2005" height="361" key="GridCell.Tab.0.left" timestamp="1586699754904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
-    <state width="2005" height="300" key="GridCell.Tab.0.right" timestamp="1586696980496">
+    <state width="2005" height="361" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586699754904" />
+    <state width="2005" height="361" key="GridCell.Tab.0.right" timestamp="1586699754904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
+    <state width="2005" height="361" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586699754904" />
     <state x="526" y="198" key="SettingsEditor" timestamp="1586685265116">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -179,28 +183,30 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/InterfaceFramework$operator_json.coverage" NAME="operator_json Coverage Results" MODIFIED="1585218279925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_for_test_edit_user_new_TestEditUser.coverage" NAME="Unittests for test_edit_user_new.TestEditUser Coverage Results" MODIFIED="1586499279389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_edit_user_new_TestEditUser.coverage" NAME="pytest for test_edit_user_new.TestEditUser Coverage Results" MODIFIED="1585281635758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_edit_user_new_TestEditUser_test_edit_user.coverage" NAME="pytest for test_edit_user_new.TestEditUser.test_edit_user Coverage Results" MODIFIED="1586492781857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_register_TestRegister_test_register.coverage" NAME="pytest for test_register.TestRegister.test_register Coverage Results" MODIFIED="1585208736382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_in_test_edit_user_new_py.coverage" NAME="Unittests in test_edit_user_new.py Coverage Results" MODIFIED="1586492885132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$Util.coverage" NAME="Util Coverage Results" MODIFIED="1585216489022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$util.coverage" NAME="util Coverage Results" MODIFIED="1586685850578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_in_test_login_new_py.coverage" NAME="pytest in test_login_new.py Coverage Results" MODIFIED="1585280302945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1585276657042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_edit_user_TestEditUser_test_edit_user.coverage" NAME="pytest for test_edit_user.TestEditUser.test_edit_user Coverage Results" MODIFIED="1585276738498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_in_a_py.coverage" NAME="Unittests in a.py Coverage Results" MODIFIED="1586499102255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_login_TestLogin_test_login.coverage" NAME="pytest for test_login.TestLogin.test_login Coverage Results" MODIFIED="1585213235056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_in_test_register_new_py.coverage" NAME="pytest in test_register_new.py Coverage Results" MODIFIED="1585280536498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_in_test_edit_user_py.coverage" NAME="pytest in test_edit_user.py Coverage Results" MODIFIED="1585276791186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$manage.coverage" NAME="manage Coverage Results" MODIFIED="1586695829103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_in_test_edit_user_new_py.coverage" NAME="pytest in test_edit_user_new.py Coverage Results" MODIFIED="1586492753297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$a.coverage" NAME="a Coverage Results" MODIFIED="1586695725327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$api_login.coverage" NAME="api_login Coverage Results" MODIFIED="1585202490383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_login_TestLogin.coverage" NAME="pytest for test_login.TestLogin Coverage Results" MODIFIED="1585202681475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_for_a_TestCase_test_login.coverage" NAME="Unittests for a.TestCase.test_login Coverage Results" MODIFIED="1586499030018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_for_test_edit_user_new_TestEditUser_test_edit_user.coverage" NAME="Unittests for test_edit_user_new.TestEditUser.test_edit_user Coverage Results" MODIFIED="1586492985015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$Log.coverage" NAME="Log Coverage Results" MODIFIED="1586487088347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework_unittest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1586699754897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_for_test_edit_user_new_TestEditUser.coverage" NAME="Unittests for test_edit_user_new.TestEditUser Coverage Results" MODIFIED="1586499279389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_edit_user_new_TestEditUser_test_edit_user.coverage" NAME="pytest for test_edit_user_new.TestEditUser.test_edit_user Coverage Results" MODIFIED="1586492781857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_register_TestRegister_test_register.coverage" NAME="pytest for test_register.TestRegister.test_register Coverage Results" MODIFIED="1585208736382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_in_test_edit_user_new_py.coverage" NAME="Unittests in test_edit_user_new.py Coverage Results" MODIFIED="1586492885132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_in_test_login_new_py.coverage" NAME="pytest in test_login_new.py Coverage Results" MODIFIED="1585280302945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_for_test_login_TestLogin_test_login.coverage" NAME="pytest for test_login.TestLogin.test_login Coverage Results" MODIFIED="1585213235056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$pytest_in_test_edit_user_new_py.coverage" NAME="pytest in test_edit_user_new.py Coverage Results" MODIFIED="1586492753297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_for_a_TestCase_test_login.coverage" NAME="Unittests for a.TestCase.test_login Coverage Results" MODIFIED="1586499030018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework_unittest$a.coverage" NAME="a Coverage Results" MODIFIED="1586699705383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InterfaceFramework$Unittests_for_test_edit_user_new_TestEditUser_test_edit_user.coverage" NAME="Unittests for test_edit_user_new.TestEditUser.test_edit_user Coverage Results" MODIFIED="1586492985015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/InterfaceFramework$Base.coverage" NAME="Base Coverage Results" MODIFIED="1585279244176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
   </component>
 </project>

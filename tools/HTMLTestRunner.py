@@ -371,7 +371,6 @@ class Template_mixin(object):
         font-size: 8pt;
         /* width: 500px;*/
     }
-    }
     /* -- report ------------------------------------------------------------------------ */
     #show_detail_line {
         margin-top: 3ex;
