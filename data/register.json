@@ -1,0 +1,282 @@
+[
+  {
+    "config": {
+      "url": "/api/v1/register",
+      "header": {}
+    }
+  },
+  {
+    "case_number": "register_001",
+    "title": "符合规格用户名、密码，注册成功",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "6位用户名",
+        "setups": [],
+        "teardowns": ["delete"],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "t00001",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "该用户名已存在"
+          }
+        }
+      },
+      {
+        "desc": "11位用户名",
+        "setups": [],
+        "teardowns": ["delete"],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "t0000000001",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "该用户名已存在"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "register_002",
+    "title": "请求参数为空, 注册失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "用户名、密码均为空",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "",
+            "password": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数规格不符"
+          }
+        }
+      },
+      {
+        "desc": "用户名为空",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数规格不符"
+          }
+        }
+      },
+      {
+        "desc": "密码为空",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "qiujiajin",
+            "password": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数规格不符"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "register_003",
+    "title": "未传必填参数, 注册失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "未传用户名",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "password": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数错误"
+          }
+        }
+      },
+      {
+        "desc": "未传密码",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数错误"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "register_004",
+    "title": "用户名格式不正确，注册失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "用户名输入jayne，注册失败（用户名不符合6-11位规格，此处为5位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "jayne",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数规格不符"
+          }
+        }
+      },
+      {
+        "desc": "用户名输入138001380000，注册失败（用户名不符合6-11位规格，此处为12位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "138001380000",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数规格不符"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "register_005",
+    "title": "密码格式不正确，注册失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "密码输入12345，注册失败（密码不符合6-11位规格，此处为5位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "test999",
+            "password": "12345"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数规格不符"
+          }
+        }
+      },
+      {
+        "desc": "密码输入123456789012，注册失败（密码不符合6-11位规格，此处为12位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "test999",
+            "password": "123456789012"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "请求参数规格不符"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "register_006",
+    "title": "重复账号注册失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "已经注册过的账号，再次注册会失败",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "test002",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "该用户名已存在"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "config": {
+      "url": "/api/v1/user"
+    }
+  },
+  {
+    "case_number": "edit_user_001",
+    "title": "已登录，修改用户数据成功",
+    "setups": ["login"],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "修改nickname成功",
+        "request": {
+          "data": {
+            "userId": "${userId}",
+            "token": "${token}",
+            "data": {
+              "nickname": "秋风爸爸",
+              "phone": "13528080556",
+              "sex": 1,
+              "education": "清华大学计算机博士",
+              "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"
+            }
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 200,
+            "msg": "修改成功"
+          }
+        }
+      }
+    ]
+  },
+   {
+    "case_number": "edit_user_002",
+    "title": "未登录，修改用户数据失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "修改nickname失败",
+        "request": {
+          "data": {
+            "data": {
+              "nickname": "秋风爸爸",
+              "phone": "13528080556",
+              "sex": 1,
+              "education": "清华大学计算机博士",
+              "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"
+            }
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 405,
+            "msg": "请求参数错误"
+          }
+        }
+      },
+      {
+        "desc": "修改phone失败",
+        "setups": [],
+        "request": {
+          "data": {
+            "data": {
+              "nickname": "秋风爸爸",
+              "phone": "13528080808",
+              "sex": 1,
+              "education": "清华大学计算机博士",
+              "avatar": "https://www.jayne.club/static/avatar/userId3.jpg"
+            }
+          }
+        },
+        "assert": {
+          "body": {
+            "code": 405,
+            "msg": "请求参数错误"
+          }
+        }
+      }
+    ]
+  }
+]

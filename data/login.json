@@ -1,0 +1,274 @@
+[
+  {
+    "config": {
+      "url": "/api/v1/login",
+      "header": {}
+    }
+  },
+  {
+    "case_number": "login_001",
+    "title": "正确账号密码，登录成功",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "已经注册的正确账号、密码，登录成功",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "qiujiajin",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 200,
+            "msg": "登录成功"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "login_002",
+    "title": "请求参数为空, 登录失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "用户名、密码均为空",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "",
+            "password": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 404,
+            "msg": "用户名不存在"
+          }
+        }
+      },
+      {
+        "desc": "用户名为空",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 404,
+            "msg": "用户名不存在"
+          }
+        }
+      },
+      {
+        "desc": "密码为空",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "qiujiajin",
+            "password": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "用户名或密码错误"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "login_003",
+    "title": "未传必填参数, 登录失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "未传用户名",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "password": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 405,
+            "msg": "请求参数错误"
+          }
+        }
+      },
+      {
+        "desc": "未传密码",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": ""
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 405,
+            "msg": "请求参数错误"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "login_004",
+    "title": "用户名不正确，登录失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "用户名输入jayne，登录失败（用户名不符合6-11位规格，此处为5位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "jayne",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 404,
+            "msg": "用户名不存在"
+          }
+        }
+      },
+      {
+        "desc": "用户名输入138001380000，登录失败（用户名不符合6-11位规格，此处为12位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "138001380000",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 404,
+            "msg": "用户名不存在"
+          }
+        }
+      },
+      {
+        "desc": "未注册的用户名，登录失败",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "3777636",
+            "password": "123456"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 404,
+            "msg": "用户名不存在"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case_number": "login_005",
+    "title": "密码不正确，登录失败",
+    "setups": [],
+    "teardowns": [],
+    "args": [
+      {
+        "desc": "密码输入12345，登录失败（密码不符合6-11位规格，此处为5位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "qiujiajin",
+            "password": "12345"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "用户名或密码错误"
+          }
+        }
+      },
+      {
+        "desc": "密码输入12345678901，登录失败（密码不符合6-11位规格，此处为12位）",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "qiujiajin",
+            "password": "12345678901"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "用户名或密码错误"
+          }
+        }
+      },
+      {
+        "desc": "不正确的密码，登录失败",
+        "setups": [],
+        "teardowns": [],
+        "request": {
+          "header": {},
+          "data": {
+            "username": "qiujiajin",
+            "password": "1234567"
+          }
+        },
+        "assert": {
+          "header": {},
+          "body": {
+            "code": 400,
+            "msg": "用户名或密码错误"
+          }
+        }
+      }
+    ]
+  }
+]
