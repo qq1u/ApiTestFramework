@@ -3,6 +3,10 @@
     此框架用到两个第三方库
         1、requuests 库
         2、parameterized 库
+    
+    快速体验：
+        pip install -r requirements.txt
+        python manage.py
 
 ## <1>、api层
     放置接口的请求对象层
@@ -12,6 +16,7 @@
 
 ## <3>、data层
     放置测试数据,类似[{"config": {"url": "xxx", "header": {}}}, {}, {}]
+    case中需要使用一些依赖参数的情况，可以用${userId}的方式调用， 前提是需要在setup_function里编写相应方法，可参考当中 login 的实现。
     config.json, 放置主机相关配置
     可参考现存在的login.json文件。
 

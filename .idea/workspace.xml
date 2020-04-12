@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e6215c3-99df-43e8-944c-55d5455bea4b" name="Default Changelist" comment="" />
+    <list default="true" id="2e6215c3-99df-43e8-944c-55d5455bea4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZeSdUheKNUjVnbu5ItxPHETcAS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -106,9 +114,9 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.20200410.html" />
+      <item itemvalue="JavaScript Debug.2020-04-12.html" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.util" />
-      <item itemvalue="JavaScript Debug.2020-04-12.html" />
       <item itemvalue="Python.a" />
     </list>
     <recent_temporary>
@@ -136,30 +144,34 @@
       <workItem from="1585274987153" duration="7391000" />
       <workItem from="1586485774490" duration="2928000" />
       <workItem from="1586488733277" duration="6321000" />
-      <workItem from="1586685204802" duration="3728000" />
+      <workItem from="1586685204802" duration="4930000" />
+      <workItem from="1586696998998" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="300" key="GridCell.Tab.0.bottom" timestamp="1586695829109">
+    <state width="2005" height="300" key="GridCell.Tab.0.bottom" timestamp="1586696980496">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586695829109" />
-    <state width="2005" height="300" key="GridCell.Tab.0.center" timestamp="1586695829108">
+    <state width="2005" height="300" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
+    <state width="2005" height="300" key="GridCell.Tab.0.center" timestamp="1586696980496">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586695829108" />
-    <state width="2005" height="300" key="GridCell.Tab.0.left" timestamp="1586695829108">
+    <state width="2005" height="300" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
+    <state width="2005" height="300" key="GridCell.Tab.0.left" timestamp="1586696980496">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586695829108" />
-    <state width="2005" height="300" key="GridCell.Tab.0.right" timestamp="1586695829109">
+    <state width="2005" height="300" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
+    <state width="2005" height="300" key="GridCell.Tab.0.right" timestamp="1586696980496">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="300" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586695829109" />
+    <state width="2005" height="300" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586696980496" />
     <state x="526" y="198" key="SettingsEditor" timestamp="1586685265116">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
