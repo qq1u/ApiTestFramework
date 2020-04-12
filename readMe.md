@@ -1,7 +1,7 @@
 # 使用前须知
 
     此框架用到两个第三方库
-        1、requuests 库
+        1、requests 库
         2、parameterized 库
     
     快速体验：
