@@ -1,2 +1,2 @@
-requests==2.23.0
+requests==2.31.0
 parameterized==0.7.1
